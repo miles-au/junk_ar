@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: 20.0),
             Text(
-              'Junk AR uses Augmented Reality to visualize how much trash we throw away everyday.',
+              'Junk AR uses Augmented Reality to visualize how much garbage we throw away everyday.',
               style: TextStyle(fontSize: 20.0),
             ),
             SizedBox(height: 30.0),
