@@ -37,4 +37,4 @@ lib/generated_plugin_registrant.dart
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 
 # dae files are too large to upload to github
-/ios/Runner/models.scnassets
+ios/Runner/models.scnassets
