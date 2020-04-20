@@ -10,19 +10,21 @@ class Junk {
     Junk(
         label: 'Plastic Bottles',
         fact:
-            'Humans worldwide produce about 16,000 plastic bottles every SECOND.',
-        daePath: 'models.scnassets/bottle/bottle.dae',
-        source: 'Reuters 2019 - Drowning in plastic'),
+            'In 2014, Americans consumed over 3,000 plastic bottles every SECOND.',
+        daePath: 'models.scnassets/bottle/bottles.dae',
+        source: 'Plastic Oceans International 2020 - The Facts'),
     Junk(
         label: 'Coffee Pods',
         fact: 'Over 1,800 single use coffee pods are thrown out every SECOND.',
-        daePath: 'models.scnassets/coffee_pod/coffee_pod.dae',
+        daePath: 'models.scnassets/coffee_pod/coffee_pods.dae',
         source:
             'Halo Coffee 2019 - Is Recycling Aluminium Coffee Capsules Really the Way Forward?'),
     Junk(
-        label: 'Takeout Containers',
-        fact: 'A shit ton of takeout containers are thrown out every SECOND.',
-        daePath: 'models.scnassets/coffee_pod/coffee_pod.dae',
-        source: 'My eyes'),
+        label: 'Styrofoam Cups',
+        fact:
+            'The USA alone throws out almost 800 styrofoam cups every SECOND.',
+        daePath: 'models.scnassets/styrofoam_cup/styrofoam_cups.dae',
+        source:
+            'earthday.org 2018 - Fact Sheet: How Much Disposable Plastic We Use'),
   ];
 }

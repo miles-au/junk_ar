@@ -77,7 +77,7 @@ class IOSARBloc {
     _junkNode = ARKitReferenceNode(
       url: junk.daePath,
       position: position,
-      scale: vector.Vector3(0.001, 0.001, 0.001),
+      scale: vector.Vector3(1, 1, 1),
     );
     _controller.add(_junkNode);
   }

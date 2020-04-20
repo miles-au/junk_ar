@@ -29,13 +29,14 @@ class _ARScreenIOSState extends State<ARScreenIOS> {
   @override
   Widget build(BuildContext context) {
     _iosArBloc = Provider.of<IOSARBloc>(context);
+    AppBar appBar = AppBar(
+      elevation: 0,
+      backgroundColor: Colors.transparent,
+      title: Text('Junk AR'),
+    );
 
     return Scaffold(
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.transparent,
-        title: Text('Junk AR'),
-      ),
+      appBar: appBar,
       extendBodyBehindAppBar: true,
       body: Container(
           child: Stack(
@@ -43,6 +44,17 @@ class _ARScreenIOSState extends State<ARScreenIOS> {
           ARKitSceneView(
             onARKitViewCreated: _onARKitViewCreated,
             enableTapRecognizer: true,
+          ),
+          Container(
+            width: MediaQuery.of(context).size.width,
+            padding: EdgeInsets.fromLTRB(
+                15, appBar.preferredSize.height + 10, 15, 5),
+            color: Colors.black.withOpacity(0.4),
+            child: Text(
+              'Tap where you want to place or move the junk.',
+              style: TextStyle(color: Colors.white),
+              textAlign: TextAlign.center,
+            ),
           ),
           Align(
             alignment: Alignment.bottomCenter,
